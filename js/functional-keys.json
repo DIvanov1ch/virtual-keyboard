@@ -1,0 +1,106 @@
+[
+  {
+    "key": "Alt", 
+    "code": "AltLeft",
+    "altkey": "true",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Alt", 
+    "code": "AltRight",
+    "altkey": "true",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "CapsLock", 
+    "code": "CapsLock",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "ContextMenu", 
+    "code": "ContextMenu",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Control", 
+    "code": "ControlLeft",
+    "altkey": "false",
+    "ctrlKey": "true",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Control", 
+    "code": "ControlRight",
+    "altkey": "false",
+    "ctrlKey": "true",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Enter", 
+    "code": "Enter",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Meta", 
+    "code": "MetaLeft",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "true",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Shift", 
+    "code": "ShiftLeft",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "Shift", 
+    "code": "ShiftRight",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": " ", 
+    "code": "Space",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Tab", 
+    "code": "Tab",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Delete", 
+    "code": "Delete",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  }
+]

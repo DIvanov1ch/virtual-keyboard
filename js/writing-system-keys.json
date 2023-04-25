@@ -1,0 +1,762 @@
+[
+  {
+    "key": "`", 
+    "code": "Backquote",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "~",
+    "code": "Backquote",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "\\",
+    "code": "Backslash",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "|",
+    "code": "Backslash",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "[",
+    "code": "BracketLeft",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "{",
+    "code": "BracketLeft",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "]",
+    "code": "BracketRight",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "}",
+    "code": "BracketRight",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": ",",
+    "code": "Comma",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "<",
+    "code": "Comma",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "0",
+    "code": "Digit0",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": ")",
+    "code": "Digit0",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "1",
+    "code": "Digit1",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "!",
+    "code": "Digit1",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "2",
+    "code": "Digit2",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "@",
+    "code": "Digit2",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "3",
+    "code": "Digit3",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "#",
+    "code": "Digit3",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "4",
+    "code": "Digit4",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "$",
+    "code": "Digit4",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "5",
+    "code": "Digit5",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "%",
+    "code": "Digit5",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "6",
+    "code": "Digit6",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "^",
+    "code": "Digit6",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "7",
+    "code": "Digit7",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "&",
+    "code": "Digit7",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "8",
+    "code": "Digit8",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "*",
+    "code": "Digit8",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "9",
+    "code": "Digit9",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "(",
+    "code": "Digit9",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "=",
+    "code": "Equal",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "+",
+    "code": "Equal",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "A",
+    "code": "KeyA",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "B",
+    "code": "KeyB",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "C",
+    "code": "KeyC",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "D",
+    "code": "KeyD",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "E",
+    "code": "KeyE",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "f",
+    "code": "KeyF",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "F",
+    "code": "KeyF",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "G",
+    "code": "KeyG",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "H",
+    "code": "KeyH",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "I",
+    "code": "KeyI",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "j",
+    "code": "KeyJ",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "J",
+    "code": "KeyJ",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "k",
+    "code": "KeyK",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "K",
+    "code": "KeyK",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "L",
+    "code": "KeyL",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "M",
+    "code": "KeyM",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "N",
+    "code": "KeyN",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "O",
+    "code": "KeyO",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "P",
+    "code": "KeyP",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "q",
+    "code": "KeyQ",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Q",
+    "code": "KeyQ",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "R",
+    "code": "KeyR",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "S",
+    "code": "KeyS",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "T",
+    "code": "KeyT",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "U",
+    "code": "KeyU",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "v",
+    "code": "KeyV",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "V",
+    "code": "KeyV",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "W",
+    "code": "KeyW",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "x",
+    "code": "KeyX",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "X",
+    "code": "KeyX",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Y",
+    "code": "KeyY",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "z",
+    "code": "KeyZ",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "Z",
+    "code": "KeyZ",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "-",
+    "code": "Minus",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "_",
+    "code": "Minus",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": ".",
+    "code": "Period",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": ">",
+    "code": "Period",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "'",
+    "code": "Quote",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "\"",
+    "code": "Quote",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": ";",
+    "code": "Semicolon",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": ":",
+    "code": "Semicolon",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  },
+  {
+    "key": "/",
+    "code": "Slash",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "?",
+    "code": "Slash",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "true"
+  }
+]

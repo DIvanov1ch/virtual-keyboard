@@ -1,0 +1,34 @@
+[
+  {
+    "key": "ArrowLeft", 
+    "code": "ArrowLeft",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "ArrowRight", 
+    "code": "ArrowRight",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "ArrowDown", 
+    "code": "ArrowDown",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  },
+  {
+    "key": "ArrowUp", 
+    "code": "ArrowUp",
+    "altkey": "false",
+    "ctrlKey": "false",
+    "metaKey": "false",
+    "shiftKey": "false"
+  }
+]

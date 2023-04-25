@@ -1,0 +1,93 @@
+.body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 800px;
+  margin: 0 auto;
+  padding: 25px 40px;
+}
+
+.text-area {
+  width: 100%;
+  min-height: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+}
+
+.keyboard {
+  display: grid;
+  grid-auto-rows: 40px;
+  row-gap: 7px;
+  padding: 10px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  background-color: #a8a9ad;
+}
+
+.first-line,
+.second-line,
+.third-line,
+.fourth-line,
+.fifth-line {
+  display: grid;
+  column-gap: 6px;
+  grid-auto-columns: 40px;
+}
+
+.first-line {
+  grid-template-columns: repeat(13, 1fr) 2fr;
+}
+
+.second-line {
+  grid-template-columns: 1.2fr repeat(14, 1fr);
+}
+
+.third-line {
+  grid-template-columns: 2fr repeat(11, 1fr) 2fr;
+}
+
+.fourth-line {
+  grid-template-columns: 2.35fr repeat(11, 1fr) 2.15fr;
+}
+
+.fifth-line {
+  grid-template-columns: repeat(3, 1fr) 7fr repeat(6, 1fr);
+}
+
+.first-line :last-child,
+.second-line :first-child,
+.second-line :last-child,
+.third-line :first-child,
+.third-line :last-child,
+.fourth-line :first-child,
+.fourth-line :last-child,
+.fourth-line :nth-child(12),
+.fifth-line :nth-child(n){
+  background-color: rgb(25, 25, 27);
+}
+
+.key,
+.fifth-line :nth-child(4) {
+  background-color: rgb(37, 42, 48);
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+.key:hover {
+  background-color: rgb(14, 92, 92);
+  transition: 0.1s;
+}
+
+.key:active {
+  border-radius: 15px;
+  transition: 0.1s;
+  background-color: indianred;
+  border-style: none;
+}
