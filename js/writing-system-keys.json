@@ -1,762 +1,613 @@
 [
   {
-    "key": "`", 
     "code": "Backquote",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "`",
+        "~"
+      ],
+      "ru": [
+        "ё",
+        "Ё"
+      ]
+    }
   },
   {
-    "key": "~",
-    "code": "Backquote",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "\\",
     "code": "Backslash",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "\\",
+        "|"
+      ],
+      "ru": [
+        "\\",
+        "/"
+      ]
+    }
   },
   {
-    "key": "|",
-    "code": "Backslash",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "Backspace",
-    "code": "Backspace",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
-  },
-  {
-    "key": "[",
     "code": "BracketLeft",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "[",
+        "{"
+      ],
+      "ru": [
+        "х",
+        "Х"
+      ]
+    }
   },
   {
-    "key": "{",
-    "code": "BracketLeft",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "]",
     "code": "BracketRight",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "]",
+        "}"
+      ],
+      "ru": [
+        "ъ",
+        "Ъ"
+      ]
+    }
   },
   {
-    "key": "}",
-    "code": "BracketRight",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": ",",
     "code": "Comma",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        ",",
+        "<"
+      ],
+      "ru": [
+        "б",
+        "Б"
+      ]
+    }
   },
   {
-    "key": "<",
-    "code": "Comma",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "0",
     "code": "Digit0",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "0",
+        ")"
+      ],
+      "ru": [
+        "0",
+        ")"
+      ]
+    }
   },
   {
-    "key": ")",
-    "code": "Digit0",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "1",
     "code": "Digit1",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "1",
+        "!"
+      ],
+      "ru": [
+        "1",
+        "!"
+      ]
+    }
   },
   {
-    "key": "!",
-    "code": "Digit1",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "2",
     "code": "Digit2",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "2",
+        "@"
+      ],
+      "ru": [
+        "2",
+        "\""
+      ]
+    }
   },
   {
-    "key": "@",
-    "code": "Digit2",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "3",
     "code": "Digit3",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "3",
+        "#"
+      ],
+      "ru": [
+        "3",
+        "№"
+      ]
+    }
   },
   {
-    "key": "#",
-    "code": "Digit3",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "4",
     "code": "Digit4",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "4",
+        "$"
+      ],
+      "ru": [
+        "4",
+        ";"
+      ]
+    }
   },
   {
-    "key": "$",
-    "code": "Digit4",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "5",
     "code": "Digit5",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "5",
+        "%"
+      ],
+      "ru": [
+        "5",
+        "%"
+      ]
+    }
   },
   {
-    "key": "%",
-    "code": "Digit5",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "6",
     "code": "Digit6",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "6",
+        "^"
+      ],
+      "ru": [
+        "6",
+        ":"
+      ]
+    }
   },
   {
-    "key": "^",
-    "code": "Digit6",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "7",
     "code": "Digit7",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "7",
+        "&"
+      ],
+      "ru": [
+        "7",
+        "?"
+      ]
+    }
   },
   {
-    "key": "&",
-    "code": "Digit7",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "8",
     "code": "Digit8",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "8",
+        "*"
+      ],
+      "ru": [
+        "8",
+        "*"
+      ]
+    }
   },
   {
-    "key": "*",
-    "code": "Digit8",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "9",
     "code": "Digit9",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "9",
+        "("
+      ],
+      "ru": [
+        "9",
+        "("
+      ]
+    }
   },
   {
-    "key": "(",
-    "code": "Digit9",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "=",
     "code": "Equal",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "=",
+        "+"
+      ],
+      "ru": [
+        "=",
+        "+"
+      ]
+    }
   },
   {
-    "key": "+",
-    "code": "Equal",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "a",
     "code": "KeyA",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "a",
+        "A"
+      ],
+      "ru": [
+        "ф",
+        "Ф"
+      ]
+    }
   },
   {
-    "key": "A",
-    "code": "KeyA",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "b",
     "code": "KeyB",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "b",
+        "B"
+      ],
+      "ru": [
+        "и",
+        "И"
+      ]
+    }
   },
   {
-    "key": "B",
-    "code": "KeyB",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "c",
     "code": "KeyC",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "c",
+        "C"
+      ],
+      "ru": [
+        "с",
+        "С"
+      ]
+    }
   },
   {
-    "key": "C",
-    "code": "KeyC",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "d",
     "code": "KeyD",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "d",
+        "D"
+      ],
+      "ru": [
+        "в",
+        "В"
+      ]
+    }
   },
   {
-    "key": "D",
-    "code": "KeyD",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "e",
     "code": "KeyE",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "e",
+        "E"
+      ],
+      "ru": [
+        "у",
+        "У"
+      ]
+    }
   },
   {
-    "key": "E",
-    "code": "KeyE",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "f",
     "code": "KeyF",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "f",
+        "F"
+      ],
+      "ru": [
+        "а",
+        "А"
+      ]
+    }
   },
   {
-    "key": "F",
-    "code": "KeyF",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "g",
     "code": "KeyG",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "g",
+        "G"
+      ],
+      "ru": [
+        "п",
+        "П"
+      ]
+    }
   },
   {
-    "key": "G",
-    "code": "KeyG",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "h",
     "code": "KeyH",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "h",
+        "H"
+      ],
+      "ru": [
+        "р",
+        "Р"
+      ]
+    }
   },
   {
-    "key": "H",
-    "code": "KeyH",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "i",
     "code": "KeyI",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "i",
+        "I"
+      ],
+      "ru": [
+        "ш",
+        "Ш"
+      ]
+    }
   },
   {
-    "key": "I",
-    "code": "KeyI",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "j",
     "code": "KeyJ",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "j",
+        "J"
+      ],
+      "ru": [
+        "о",
+        "О"
+      ]
+    }
   },
   {
-    "key": "J",
-    "code": "KeyJ",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "k",
     "code": "KeyK",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "k",
+        "K"
+      ],
+      "ru": [
+        "л",
+        "Л"
+      ]
+    }
   },
   {
-    "key": "K",
-    "code": "KeyK",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "l",
     "code": "KeyL",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "l",
+        "L"
+      ],
+      "ru": [
+        "д",
+        "Д"
+      ]
+    }
   },
   {
-    "key": "L",
-    "code": "KeyL",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "m",
     "code": "KeyM",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "m",
+        "M"
+      ],
+      "ru": [
+        "ь",
+        "Ь"
+      ]
+    }
   },
   {
-    "key": "M",
-    "code": "KeyM",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "n",
     "code": "KeyN",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "n",
+        "N"
+      ],
+      "ru": [
+        "т",
+        "Т"
+      ]
+    }
   },
   {
-    "key": "N",
-    "code": "KeyN",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "o",
     "code": "KeyO",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "o",
+        "O"
+      ],
+      "ru": [
+        "щ",
+        "Щ"
+      ]
+    }
   },
   {
-    "key": "O",
-    "code": "KeyO",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "p",
     "code": "KeyP",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "p",
+        "P"
+      ],
+      "ru": [
+        "з",
+        "З"
+      ]
+    }
   },
   {
-    "key": "P",
-    "code": "KeyP",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "q",
     "code": "KeyQ",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "q",
+        "Q"
+      ],
+      "ru": [
+        "й",
+        "Й"
+      ]
+    }
   },
   {
-    "key": "Q",
-    "code": "KeyQ",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "r",
     "code": "KeyR",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "r",
+        "R"
+      ],
+      "ru": [
+        "к",
+        "К"
+      ]
+    }
   },
   {
-    "key": "R",
-    "code": "KeyR",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "s",
     "code": "KeyS",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "s",
+        "S"
+      ],
+      "ru": [
+        "ы",
+        "Ы"
+      ]
+    }
   },
   {
-    "key": "S",
-    "code": "KeyS",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "t",
     "code": "KeyT",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "t",
+        "T"
+      ],
+      "ru": [
+        "е",
+        "Е"
+      ]
+    }
   },
   {
-    "key": "T",
-    "code": "KeyT",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "u",
     "code": "KeyU",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "u",
+        "U"
+      ],
+      "ru": [
+        "г",
+        "Г"
+      ]
+    }
   },
   {
-    "key": "U",
-    "code": "KeyU",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "v",
     "code": "KeyV",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "v",
+        "V"
+      ],
+      "ru": [
+        "м",
+        "М"
+      ]
+    }
   },
   {
-    "key": "V",
-    "code": "KeyV",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "w",
     "code": "KeyW",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "w",
+        "W"
+      ],
+      "ru": [
+        "ц",
+        "Ц"
+      ]
+    }
   },
   {
-    "key": "W",
-    "code": "KeyW",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "x",
     "code": "KeyX",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "x",
+        "X"
+      ],
+      "ru": [
+        "ч",
+        "Ч"
+      ]
+    }
   },
   {
-    "key": "X",
-    "code": "KeyX",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "y",
     "code": "KeyY",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "y",
+        "Y"
+      ],
+      "ru": [
+        "н",
+        "Н"
+      ]
+    }
   },
   {
-    "key": "Y",
-    "code": "KeyY",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "z",
     "code": "KeyZ",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "z",
+        "Z"
+      ],
+      "ru": [
+        "я",
+        "Я"
+      ]
+    }
   },
   {
-    "key": "Z",
-    "code": "KeyZ",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "-",
     "code": "Minus",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "-",
+        "_"
+      ],
+      "ru": [
+        "-",
+        "_"
+      ]
+    }
   },
   {
-    "key": "_",
-    "code": "Minus",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": ".",
     "code": "Period",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        ".",
+        ">"
+      ],
+      "ru": [
+        "ю",
+        "Ю"
+      ]
+    }
   },
   {
-    "key": ">",
-    "code": "Period",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "'",
     "code": "Quote",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        "'",
+        "\""
+      ],
+      "ru": [
+        "э",
+        "Э"
+      ]
+    }
   },
   {
-    "key": "\"",
-    "code": "Quote",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": ";",
     "code": "Semicolon",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "key": {
+      "en": [
+        ";",
+        ":"
+      ],
+      "ru": [
+        "ж",
+        "Ж"
+      ]
+    }
   },
   {
-    "key": ":",
-    "code": "Semicolon",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
-  },
-  {
-    "key": "/",
     "code": "Slash",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
-  },
-  {
-    "key": "?",
-    "code": "Slash",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
+    "key": {
+      "en": [
+        "/",
+        "?"
+      ],
+      "ru": [
+        ".",
+        ","
+      ]
+    }
   }
 ]

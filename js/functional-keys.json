@@ -2,105 +2,71 @@
   {
     "key": "Alt", 
     "code": "AltLeft",
-    "altkey": "true",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "Alt"
   },
   {
     "key": "Alt", 
     "code": "AltRight",
-    "altkey": "true",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "Alt"
   },
   {
     "key": "CapsLock", 
     "code": "CapsLock",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "CapsLock"
   },
   {
     "key": "ContextMenu", 
     "code": "ContextMenu",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "Menu"
   },
   {
     "key": "Control", 
     "code": "ControlLeft",
-    "altkey": "false",
-    "ctrlKey": "true",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "Ctrl"
   },
   {
     "key": "Control", 
     "code": "ControlRight",
-    "altkey": "false",
-    "ctrlKey": "true",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "Ctrl"
   },
   {
     "key": "Enter", 
     "code": "Enter",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "ENTER"
   },
   {
     "key": "Meta", 
     "code": "MetaLeft",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "true",
-    "shiftKey": "false"
+    "description": "Win"
   },
   {
     "key": "Shift", 
     "code": "ShiftLeft",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
+    "description": "Shift"
   },
   {
     "key": "Shift", 
     "code": "ShiftRight",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "true"
+    "description": "Shift"
   },
   {
     "key": " ", 
     "code": "Space",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": " "
   },
   {
     "key": "Tab", 
     "code": "Tab",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "Tab"
   },
   {
     "key": "Delete", 
     "code": "Delete",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "DEL"
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "description": "Back"
   }
 ]

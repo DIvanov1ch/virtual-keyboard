@@ -1,34 +1,22 @@
 [
   {
-    "key": "ArrowLeft", 
+    "key": "←", 
     "code": "ArrowLeft",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "←"
   },
   {
-    "key": "ArrowRight", 
+    "key": "→", 
     "code": "ArrowRight",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "→"
   },
   {
-    "key": "ArrowDown", 
+    "key": "↓", 
     "code": "ArrowDown",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "↓"
   },
   {
-    "key": "ArrowUp", 
+    "key": "↑", 
     "code": "ArrowUp",
-    "altkey": "false",
-    "ctrlKey": "false",
-    "metaKey": "false",
-    "shiftKey": "false"
+    "description": "↑"
   }
 ]
