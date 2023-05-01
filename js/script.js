@@ -1,6 +1,6 @@
 import writingSystemKeys from './writing-system-keys.json' assert {type: "json"};
 import functionalKeys from './functional-keys.json' assert {type: "json"};
-import arrowPadSection from './arrow-pad-section.json' assert {type: "json"};
+import arrowKeys from './arrow-pad-section.json' assert {type: "json"};
 import keyOrder from './key-order.json' assert {type: "json"};
 import { Key } from './Key.js';
 
@@ -27,7 +27,7 @@ INFO.textContent = 'This Keyboard was created in Windows OS';
 const LANG_INFO = document.createElement('p');
 LANG_INFO.className = 'lang';
 CONTAINER.insertAdjacentElement('beforeend', LANG_INFO);
-LANG_INFO.textContent = 'To switch between keyboard layouts, press Ctrl+Shift';
+LANG_INFO.textContent = 'To switch between keyboard layouts, press Alt+Ctrl';
 const FIRST_LINE = document.createElement('div');
 FIRST_LINE.className = 'first-line';
 const SECOND_LINE = document.createElement('div');
@@ -88,7 +88,7 @@ function fillKeyboard(setOfKeys, description = false) {
 
 const functionalButtons = createArrayOfKeys(functionalKeys);
 fillKeyboard(functionalButtons, true);
-const arrowButtons = createArrayOfKeys(arrowPadSection);
+const arrowButtons = createArrayOfKeys(arrowKeys);
 fillKeyboard(arrowButtons, true);
 const lowerCaseEN = createArrayOfKeys(writingSystemKeys, "en", false);
 const upperCaseEN = createArrayOfKeys(writingSystemKeys, "en", true);
@@ -96,54 +96,215 @@ const lowerCaseRU = createArrayOfKeys(writingSystemKeys, "ru", false);
 const upperCaseRU = createArrayOfKeys(writingSystemKeys, "ru", true);
 let currentLayout = lowerCaseEN;
 fillKeyboard(currentLayout);
+// console.log(functionalKeys.map(item => item.code));
 
 document.addEventListener('keydown', keyDownHandler);
 document.addEventListener('keyup', keyUpHandler);
-document.addEventListener('click', mouseHandler);
+document.addEventListener('mousedown', mouseDownHandler);
+document.addEventListener('mouseup', mouseUpHandler);
+
+let langKeys = ['Alt', 'Control'];
+let pressed = new Set();
+let isCapsLockOn = false;
 
 function keyDownHandler(event) {
-    //console.log('key -> ', event.key, 'code -> ', event.code, event);
-
     if (!keyOrder.includes(event.code)) {
         event.preventDefault();
-        console.log(event);
+    } else if (functionalKeys.map(item => item.code).includes(event.code)) {
+        event.preventDefault();
+        TEXT_AREA.focus();
+        setButtonActive(event.code);
+        controlFunctionalKeys(event, event.code);
     } else {
         event.preventDefault();
         TEXT_AREA.focus();
-        insertContent(event);
+        setButtonActive(event.code);
+        insertContent(event.code);
     }
 }
 
 function keyUpHandler(event) {
     if (!keyOrder.includes(event.code)) {
         event.preventDefault();
-        console.log(event);
+    } else if (event.code === 'ShiftLeft' || event.code === 'ShiftRight') {
+        changeCase();
+        setButtonInactive(event.code);
+    } else if (event.code === 'AltLeft' || event.code === 'AltRight'
+        || event.code === 'ControlLeft' || event.code === 'ControlRight') {
+        pressed.delete(event.key);
+        setButtonInactive(event.code);
+    } else if (event.code === 'CapsLock') {
+        isCapsLockOn = !isCapsLockOn;
+        if (!isCapsLockOn) {
+            setButtonInactive(event.code);
+        }
     } else {
-        let button = [...KEYS].filter(item => item.classList.contains(event.code)).pop();
-        button.classList.remove('active');
+        setButtonInactive(event.code);
     }
 }
 
-function mouseHandler(event) {
-    console.log(TEXT_AREA.selectionStart, TEXT_AREA.selectionEnd);
+function mouseDownHandler(event) {
+    let target = event.target;
+    if ([...KEYS].includes(target) && event.button === 0) {
+        TEXT_AREA.focus();
+        insertContent(target.classList[1]);
+        //setButtonActive(target.classList[1]);
+    }
 }
 
-function insertContent(event) {
-    let button = [...KEYS].filter(item => item.classList.contains(event.code)).pop();
+function mouseUpHandler(event) {
+    let target = event.target;
+    if ([...KEYS].includes(target) && event.button === 0) {
+        TEXT_AREA.focus();
+        //setButtonInactive(target.classList[1]);
+    }
+}
+
+function setButtonActive(eventCode) {
+    let button = [...KEYS].filter(item => item.classList.contains(eventCode)).pop();
     button.classList.add('active');
-    let keyCode = button.classList[1];
-    let content = currentLayout.filter(item => item.code === keyCode).pop().key.trim();
+}
+
+function setButtonInactive(eventCode) {
+    let button = [...KEYS].filter(item => item.classList.contains(eventCode)).pop();
+    button.classList.remove('active');
+}
+
+function insertContent(eventCode) {
+    let content;
+    if (eventCode === 'Space') {
+        content = ' ';
+    } else if (eventCode === 'Tab') {
+        content = '    ';
+    } else if (eventCode === 'Enter') {
+        content = '\n';
+    } else if (arrowKeys.map(item => item.code).includes(eventCode)) {
+        content = arrowButtons.filter(key => key.code === eventCode).pop().description;
+    } else {
+        content = currentLayout.filter(key => key.code === eventCode).pop().key.trim();
+    }
+
     let selectionStart = TEXT_AREA.selectionStart;
     let selectionEnd = TEXT_AREA.selectionEnd;
-    if (selectionStart) {
-        let value = TEXT_AREA.value.split('');
-        value.splice(selectionStart, 0, content);
-        value = value.join('');
-        TEXT_AREA.value = value;
-        const newSelectionStart = selectionStart + content.length;
-        const newSelectionEnd = selectionEnd + content.length;
-        TEXT_AREA.setSelectionRange(newSelectionStart, newSelectionEnd);
+
+    let value = TEXT_AREA.value.split('');
+    value.splice(selectionStart, 0, content);
+    value = value.join('');
+    TEXT_AREA.value = value;
+
+    let newSelectionStart = selectionStart + content.length;
+    let newSelectionEnd = selectionEnd + content.length;
+    TEXT_AREA.setSelectionRange(newSelectionStart, newSelectionEnd);
+}
+
+function deleteContent(eventCode) {
+    let selectionStart = TEXT_AREA.selectionStart;
+    let selectionEnd = TEXT_AREA.selectionEnd;
+    let value = TEXT_AREA.value.split('');
+    let newSelectionStart;
+    let newSelectionEnd;
+
+    if (eventCode === 'Delete') {
+        value.splice(selectionStart, 1);
+        newSelectionStart = selectionStart;
+        newSelectionEnd = selectionEnd;
     } else {
-        TEXT_AREA.value += content;
+        value.splice((selectionStart - 1), 1);
+        if (selectionStart === 0) {
+            return;
+        }
+        newSelectionStart = --selectionStart;
+        newSelectionEnd = --selectionEnd;
+    }
+
+    value = value.join('');
+    TEXT_AREA.value = value;
+
+    TEXT_AREA.setSelectionRange(newSelectionStart, newSelectionEnd);
+}
+
+function controlFunctionalKeys(event, eventCode) {
+
+    if (eventCode === 'Backspace' || eventCode === 'Delete') {
+        deleteContent(eventCode);
+    } else if (eventCode === 'Space' || eventCode === 'Tab' || eventCode === 'Enter') {
+        insertContent(eventCode);
+    } else if (eventCode === 'ShiftLeft' || eventCode === 'ShiftRight') {
+        if (!event.repeat) {
+            changeCase();
+        }
+    } else if (eventCode === 'AltLeft' || eventCode === 'AltRight'
+        || eventCode === 'ControlLeft' || eventCode === 'ControlRight') {
+        if (event.repeat) {
+            return;
+        }
+        pressed.add(event.key);
+        for (const key of langKeys) {
+            if (!pressed.has(key)) {
+                return;
+            }
+        }
+        //pressed.clear();
+        changeLanguage();
+    } else if (event.code === 'CapsLock') {
+        if (!event.repeat) {
+            changeCase();
+        }
+    }
+}
+
+function changeCase() {
+    let currentLanguage = currentLayout[0].description.split(' ').shift().toUpperCase();
+    let currentCase = currentLayout[0].description.split(' ').pop() === 'true' ? 'upper' : 'lower';
+    let currentLayoutStr = `${currentCase}Case${currentLanguage}`;
+    switch (currentLayoutStr) {
+        case 'lowerCaseEN':
+            currentLayout = upperCaseEN;
+            fillKeyboard(currentLayout);
+            break;
+        case 'upperCaseEN':
+            currentLayout = lowerCaseEN;
+            fillKeyboard(currentLayout);
+            break;
+        case 'lowerCaseRU':
+            currentLayout = upperCaseRU;
+            fillKeyboard(currentLayout);
+            break;
+        case 'upperCaseRU':
+            currentLayout = lowerCaseRU;
+            fillKeyboard(currentLayout);
+            break;
+        default:
+            currentLayout = lowerCaseEN;
+            fillKeyboard(currentLayout);
+            break;
+    }
+}
+
+function changeLanguage() {
+    let currentLanguage = currentLayout[0].description.split(' ').shift().toUpperCase();
+    let currentCase = currentLayout[0].description.split(' ').pop() === 'true' ? 'upper' : 'lower';
+    let currentLayoutStr = `${currentCase}Case${currentLanguage}`;
+    switch (currentLayoutStr) {
+        case 'lowerCaseEN':
+            currentLayout = lowerCaseRU;
+            fillKeyboard(currentLayout);
+            break;
+        case 'upperCaseEN':
+            currentLayout = upperCaseRU;
+            fillKeyboard(currentLayout);
+            break;
+        case 'lowerCaseRU':
+            currentLayout = lowerCaseEN;
+            fillKeyboard(currentLayout);
+            break;
+        case 'upperCaseRU':
+            currentLayout = upperCaseEN;
+            fillKeyboard(currentLayout);
+            break;
+        default:
+            currentLayout = lowerCaseEN;
+            fillKeyboard(currentLayout);
+            break;
     }
 }

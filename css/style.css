@@ -69,7 +69,7 @@
 }
 
 .fourth-line {
-  grid-template-columns: 2.4fr repeat(11, 1fr) 2.1fr;
+  grid-template-columns: 2.05fr repeat(11, 1fr) 2fr;
 }
 
 .fifth-line {

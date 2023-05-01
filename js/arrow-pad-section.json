@@ -2,21 +2,21 @@
   {
     "key": "←", 
     "code": "ArrowLeft",
-    "description": "←"
+    "description": "◄"
   },
   {
     "key": "→", 
     "code": "ArrowRight",
-    "description": "→"
+    "description": "►"
   },
   {
     "key": "↓", 
     "code": "ArrowDown",
-    "description": "↓"
+    "description": "▼"
   },
   {
     "key": "↑", 
     "code": "ArrowUp",
-    "description": "↑"
+    "description": "▲"
   }
 ]
