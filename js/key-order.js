@@ -59,7 +59,6 @@ const keyOrder = [
   'AltLeft',
   'Space',
   'AltRight',
-  'ContextMenu',
   'ArrowLeft',
   'ArrowDown',
   'ArrowRight',

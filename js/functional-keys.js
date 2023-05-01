@@ -15,11 +15,6 @@ const functionalKeys = [
     description: 'CapsLock',
   },
   {
-    key: 'ContextMenu',
-    code: 'ContextMenu',
-    description: 'Menu',
-  },
-  {
     key: 'Control',
     code: 'ControlLeft',
     description: 'Ctrl',

@@ -50,7 +50,7 @@ function createButton() {
   return BUTTON;
 }
 
-for (let i = 0; i < 65; i += 1) {
+for (let i = 0; i < 64; i += 1) {
   const element = createButton();
   element.classList.add(`${keyOrder[i]}`);
   if (i < 14) {
@@ -245,17 +245,17 @@ function deleteContent(eventCode) {
   TEXT_AREA.setSelectionRange(newSelectionStart, newSelectionEnd);
 }
 
-function controlFunctionalKeys(event, eventCode) {
-  if (eventCode === 'Backspace' || eventCode === 'Delete') {
-    deleteContent(eventCode);
-  } else if (eventCode === 'Space' || eventCode === 'Tab' || eventCode === 'Enter') {
-    insertContent(eventCode);
-  } else if (eventCode === 'ShiftLeft' || eventCode === 'ShiftRight') {
+function controlFunctionalKeys(event, code) {
+  if (code === 'Backspace' || code === 'Delete') {
+    deleteContent(code);
+  } else if (code === 'Space' || code === 'Tab' || code === 'Enter') {
+    insertContent(code);
+  } else if (code === 'ShiftLeft' || code === 'ShiftRight') {
     if (!event.repeat) {
       changeCase();
     }
-  } else if (eventCode === 'AltLeft' || eventCode === 'AltRight'
-    || eventCode === 'ControlLeft' || eventCode === 'ControlRight') {
+  } else if (code === 'AltLeft' || code === 'AltRight'
+    || code === 'ControlLeft' || code === 'ControlRight') {
     if (event.repeat) {
       return;
     }
@@ -267,7 +267,7 @@ function controlFunctionalKeys(event, eventCode) {
       }
     }
     changeLanguage();
-  } else if (event.code === 'CapsLock') {
+  } else if (code === 'CapsLock') {
     if (!event.repeat) {
       changeCase();
     }
@@ -312,7 +312,19 @@ function keyUpHandler(event) {
 
 function mouseDownHandler(event) {
   const { target } = event;
-  if ([...KEYS].includes(target) && event.button === 0) {
+  if (functionalKeys.map((item) => item.code).includes(target.classList[1]) && event.button === 0) {
+    TEXT_AREA.focus();
+    if (target.classList[1] === 'ShiftLeft' || target.classList[1] === 'ShiftRight') {
+      if (target.classList[2]) {
+        return;
+      }
+      setButtonActive(target.classList[1]);
+      controlFunctionalKeys(event, target.classList[1]);
+    } else {
+      setButtonActive(target.classList[1]);
+      controlFunctionalKeys(event, target.classList[1]);
+    }
+  } else if ([...KEYS].includes(target) && event.button === 0) {
     TEXT_AREA.focus();
     insertContent(target.classList[1]);
   }
@@ -320,8 +332,17 @@ function mouseDownHandler(event) {
 
 function mouseUpHandler(event) {
   const { target } = event;
-  if ([...KEYS].includes(target) && event.button === 0) {
+  if ((target.classList[1] === 'ShiftLeft' || target.classList[1] === 'ShiftRight') && event.button === 0) {
+    changeCase();
+    setButtonInactive(target.classList[1]);
+  } else if (target.classList[1] === 'CapsLock') {
+    isCapsLockOn = !isCapsLockOn;
+    if (!isCapsLockOn) {
+      setButtonInactive(target.classList[1]);
+    }
+  } else if ([...KEYS].includes(target) && event.button === 0) {
     TEXT_AREA.focus();
+    setButtonInactive(target.classList[1]);
   }
 }
 

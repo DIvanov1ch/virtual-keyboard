@@ -73,7 +73,7 @@
 }
 
 .fifth-line {
-  grid-template-columns: repeat(3, 1fr) 7fr repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1.23fr) 8fr repeat(5, 1fr);
 }
 
 .first-line :last-child,
