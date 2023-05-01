@@ -4,13 +4,12 @@ module.exports = {
     es2021: true,
   },
   extends: 'airbnb-base',
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
   rules: {
-    'no-console': 'off',
+    'no-console': 'error',
     'import/extensions': 'off',
     'linebreak-style': ['error', 'windows'],
   },
