@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(37, 42, 48);
+  text-shadow: 3px 3px 5px pink, 1px 1px 2px indianred;
+}
+
+.text-area {
+  width: 730px;
+  min-height: 200px;
+  margin: 0 auto 20px;
+}
+
+.text-area,
+.key,
+.info,
+.lang {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+}
+
+.keyboard {
+  margin: 0 auto;
+  width: 720px;
+  display: grid;
+  grid-auto-rows: 40px;
+  row-gap: 7px;
+  padding: 10px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  background-color: #a8a9ad;
+}
+
+.first-line,
+.second-line,
+.third-line,
+.fourth-line,
+.fifth-line {
+  display: grid;
+  column-gap: 6px;
+  grid-auto-columns: 40px;
+}
+
+.first-line {
+  grid-template-columns: repeat(13, 1fr) 2fr;
+}
+
+.second-line {
+  grid-template-columns: 1.2fr repeat(14, 1fr);
+}
+
+.third-line {
+  grid-template-columns: 2fr repeat(11, 1fr) 2fr;
+}
+
+.fourth-line {
+  grid-template-columns: 2.05fr repeat(11, 1fr) 2fr;
+}
+
+.fifth-line {
+  grid-template-columns: repeat(3, 1.23fr) 8fr repeat(5, 1fr);
+}
+
+.first-line :last-child,
+.second-line :first-child,
+.second-line :last-child,
+.third-line :first-child,
+.third-line :last-child,
+.fourth-line :first-child,
+.fourth-line :last-child,
+.fourth-line :nth-child(12),
+.fifth-line :nth-child(n){
+  background-color: rgb(25, 25, 27);
+  font-weight: 500;
+  color: beige;
+}
+
+.key,
+.fifth-line :nth-child(4) {
+  border-style: none;
+  background-color: rgb(42, 48, 56);
+  border-radius: 5px;
+  transition: 0.1s;
+  font-size: 14px;
+  color: #fff;
+}
+
+.key:hover {
+  border-style: none;
+  background-color: rgb(14, 92, 92);
+  transition: 0.1s;
+}
+
+.key:active {
+  border-radius: 15px;
+  transition: 0.1s;
+  background-color: indianred;
+  border-style: none;
+}
+
+.info,
+.lang {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.lang {
+  margin-top: 0;
+}
+
+.key.active {
+  border-radius: 15px;
+  transition: 0.1s;
+  background-color: indianred;
+  border-style: none;
+}
