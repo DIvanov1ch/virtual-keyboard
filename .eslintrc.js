@@ -11,6 +11,5 @@ module.exports = {
   rules: {
     'no-console': 'error',
     'import/extensions': 'off',
-    'linebreak-style': ['error', 'windows'],
   },
 };
