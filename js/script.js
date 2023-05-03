@@ -254,8 +254,7 @@ function controlFunctionalKeys(event, code) {
     if (!event.repeat) {
       changeCase();
     }
-  } else if (code === 'AltLeft' || code === 'AltRight'
-    || code === 'ControlLeft' || code === 'ControlRight') {
+  } else if (code === 'AltLeft' || code === 'ControlLeft' || code === 'ControlRight') {
     if (event.repeat) {
       return;
     }
@@ -296,8 +295,7 @@ function keyUpHandler(event) {
   } else if (event.code === 'ShiftLeft' || event.code === 'ShiftRight') {
     changeCase();
     setButtonInactive(event.code);
-  } else if (event.code === 'AltLeft' || event.code === 'AltRight'
-    || event.code === 'ControlLeft' || event.code === 'ControlRight') {
+  } else if (event.code === 'AltLeft' || event.code === 'ControlLeft' || event.code === 'ControlRight') {
     PRESSED.delete(event.key);
     setButtonInactive(event.code);
   } else if (event.code === 'CapsLock') {
